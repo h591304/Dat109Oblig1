@@ -1,11 +1,16 @@
 package no.hvl.dat109.slangestigespill;
 
+/**
+ * Definerer rutene til monopolbrettet.
+ *
+ * @author Lars Martin
+ */
 public class Rute {
 
     private int ruteNummer;
 
     /**
-     * Oppretter konstruktøren rute for klassen Rute
+     * Konstruktøren rute for klassen Rute
      *
      * @param nummer
      */
@@ -14,7 +19,7 @@ public class Rute {
     }
 
     /**
-     * Oppretter getRuteNummer for å kunne hente aktuelle ruter
+     * Get-metode som returnerer spesifikke rutenumre(ruter).
      */
     public int getRuteNummer() {
         return ruteNummer;
